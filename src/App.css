@@ -21,8 +21,6 @@ section {
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -154,6 +152,9 @@ section {
   object-fit: cover;
   transition: box-shadow 0.2s;
   margin-top: 5cqh;
+  max-width: 500px;
+  align-self: anchor-center;
+  min-width: 19.7cqw;
 }
 
 .image-container {
@@ -165,7 +166,9 @@ section {
   padding: 0 17cqw;
   height: 100cqh;
   text-align: center;
+  box-sizing: border-box;
 }
+
 
 /* =========================
   Animations
